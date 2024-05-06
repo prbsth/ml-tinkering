@@ -1,14 +1,5 @@
 import numpy as np
 
-'''
-Instructions for using this Autograder:
-
-0. In this problem, this autograder is used as a sanity check for your classification implementations.
-1. Make sure it is in the same immediate directory/folder as your implementation file.
-2. Run this after you have implemented the SoftmaxRegression and KNNClassifier classes.
-'''
-
-
 def test_p3_softmax(vanilla_model, basis_model):
     vanilla_weights = np.array([[ 12.15018853,   3.47210863, -15.42831204],
        [  1.39297954,   0.77669976,   7.24823083],
