@@ -1,13 +1,5 @@
 import numpy as np
 
-'''
-Instructions for using this Autograder:
-
-0. In this problem, this autograder is used as a sanity check for your implementation of gradient descent.
-1. Make sure it is in the same immediate directory/folder as your implementation file, which *must* be called T2_P1.py
-2. Run this only after you have implemented basis2, basis3, and the LogisticRegressor class.
-'''
-
 def test_p1(LogisticRegressor, basis1, basis2, basis3):
     eta = 0.001
     runs = 10000
